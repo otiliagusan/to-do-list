@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+.container {
+  border: solid #002366 3px;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+.to-do-text {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.fa-tasks {
+  padding-right: 10px;
+  color: #002366;
+}
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 24px 0 24px;
+  gap: 20px;
+}
+.input {
+  width: 75%;
+  height: 30px;
+  border: none;
+}
+.btn {
+  padding: 12px 24px;
+  border: solid transparent 2px;
+  background-color: #009d94;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600px;
+}
+.btn:hover {
+  color: #009d94;
+  background-color: #fff;
+  border: solid #009d94;
+}
+.task {
+  font-size: 14px;
+  height: 20px;
+  padding: 16px;
+}
+li {
+  list-style-type: none;
+}
+.alternative {
+  background-color: #fff;
+  color: #002366;
+  border: #002366 solid 2px;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 20px;
+}
+.task-list li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.line-through {
+  text-decoration: line-through;
+}
